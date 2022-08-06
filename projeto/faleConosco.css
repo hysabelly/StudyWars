@@ -4,27 +4,26 @@
     padding: 0;
 }
 
-/* Elementos com o ID "titulo" */
-#titulo {
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .cabecalho-imagem {
+    height: 145px;
+  }
+
+  /* Elementos com o ID "titulo" */
+  #titulo{
+    margin: auto;
     font-family: sans-serif;
     color: #8B1F1A ;
-    margin-left: 11%;
-} 
+  }
 
-#email {
-
-}
-
-/* Elementos com o ID "subtitulo" */
-#subtitulo {
-    font-family: sans-serif;
-    color: #8B1F1A ;
-    margin-left: 11%;
-} 
-
-#check{
-    display: inline-block;
-}
+  .separador {
+    border-top: 0.5px solid #8B1F1A;
+  }
 
 /* Elementos de tag <fieldset>*/
 fieldset {
@@ -37,8 +36,6 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     color: #8B1F1A;
-    margin-left: 34%;
-    margin-top: 2%;
     justify-content: center;
 }
 
@@ -63,19 +60,16 @@ input, select, textarea, button {
 /* Elementos de classe "campo" */
 .campo {
     margin-bottom: 1em;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
+    margin-top: 2em;
     margin-bottom: 0.2em;
     color: #8B1F1A;
     display: block;
-}
-
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
-fieldset.grupo .campo {
-    float:  left;
-    margin-right: 1em;
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
@@ -101,16 +95,17 @@ fieldset.grupo .campo {
     font-size: 1.2em;
     background: #8B1F1A;
     border: 0;
+    margin-top: 1em;
     margin-bottom: 1em;
     color: #FFFBF3;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
+    position: relative;
     top: 75%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
@@ -125,7 +120,6 @@ fieldset.grupo .campo {
     cursor: pointer;
 }
 
-
 .rodape {
     padding: 5px;
     border-top: 0.5px solid #8B1F1A;
@@ -135,14 +129,10 @@ fieldset.grupo .campo {
     justify-content: space-around;
 }
 
-.rodape-menu-item {
-  font-family: 'Sarala', sans-serif;
-  color: #8B1F1A;
-  font-size: 15px
-}
-
-.rodape-menu {
-    display: flex;
-    gap: 40px;
+.direitos {
+    font-family: sans-serif;
+    color:#8B1F1A;
+    text-align: center;
+    align-items: center;
   }
  
