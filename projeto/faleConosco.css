@@ -1,7 +1,7 @@
 /* Todos os elementos da página */
-* {
+*{
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 /* Elementos com o ID "titulo" */
@@ -12,7 +12,6 @@
 } 
 
 #email {
-
 }
 
 /* Elementos com o ID "subtitulo" */
@@ -22,7 +21,7 @@
     margin-left: 11%;
 } 
 
-#check{
+#check {
     display: inline-block;
 }
 
@@ -32,7 +31,7 @@ fieldset {
 }
 
 /* Elemento de tag <body> */
-body{
+body {
     background-color: #FFFBF3;
     font-family: sans-serif;
     font-size: 1em;
@@ -121,10 +120,9 @@ fieldset.grupo .campo {
 }
 
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
+.botao, select {
     cursor: pointer;
 }
-
 
 .rodape {
     padding: 5px;
@@ -145,4 +143,3 @@ fieldset.grupo .campo {
     display: flex;
     gap: 40px;
   }
- 
