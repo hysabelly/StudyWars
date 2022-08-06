@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-/*parte do */
 * {
   margin: 15;
   padding: 0;
@@ -8,7 +7,6 @@
   text-decoration: none;
 }
 
-/*parte do*/
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #FFFBF3 100%, #FFFBF3 100%);
@@ -18,14 +16,13 @@ body {
 .cabecalho {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .cabecalho-imagem {
   height: 150px;
 }
 
-/*rodapé*/
 .rodape-menu {
   display: flex;
   gap: 32px;
@@ -36,6 +33,7 @@ body {
   font-weight: 400;
   font-size: 18px
 }
+
 
 /*conteúdo: botão e texto*/
 .conteudo {
@@ -55,7 +53,6 @@ body {
   flex-direction: column;
   gap: 32px;
   align-items: center;
-
 }
 
 .conteudo-principal-escrito-titulo {
@@ -63,6 +60,13 @@ body {
   font-weight: 10px;
   font-size: 40px;
   align-items: center;
+  color: #8B1F1A;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
   color: #8B1F1A;
 }
 
@@ -116,12 +120,12 @@ body {
 
 /*rodapé*/
 .rodape {
-    padding: 35px;
-    border-top: 0.5px solid #8B1F1A;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  padding: 35px;
+  border-top: 0.5px solid #8B1F1A;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .rodape-menu-item {
@@ -130,3 +134,14 @@ body {
   font-size: 15px
 }
 
+/*rodapé
+.rodape-menu {
+  display: flex;
+  gap: 32px;
+}
+.rodape-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #8B1F1A;
+  font-weight: 400;
+  font-size: 18px
+}
