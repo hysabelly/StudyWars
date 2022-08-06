@@ -21,13 +21,9 @@
     color: #8B1F1A ;
   }
 
-<<<<<<< HEAD
   .separador {
     border-top: 0.5px solid #8B1F1A;
   }
-=======
-#email {
-}
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
@@ -35,11 +31,6 @@
     color: #8B1F1A ;
     margin-left: 11%;
 } 
-
-#check {
-    display: inline-block;
-}
->>>>>>> 0f1f9386266b5190e61c5a7c2560a0af6c887a1b
 
 /* Elementos de tag <fieldset>*/
 fieldset {
