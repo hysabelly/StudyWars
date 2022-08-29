@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 15;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+  
+.cabecalho-imagem {
+    height: 130px;
+}
+
+.conteudo {
+    padding:0px;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container {
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
+    padding: 35px;
+    background-color: #ffffff;
+}
+    
+.container  h2 {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+    
+#titulo {
+    margin: auto;
+    font-family:'Sarala', sans-serif;
+    color: #8B1F1A ;
+}
+
+.separador {   
+    border-top: 0.5px solid #8B1F1A;
+}
+
+#subtitulo {
+    font-family:'Sarala', sans-serif;
+    color: #8B1F1A ;
+    margin-left: 11%;
+} 
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #FFFBF3;
+    font-family: sans-serif;
+    color: #8B1F1A;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family:'Sarala', sans-serif;
+    font-size: 1em;
+    color: #8B1F1A;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    margin-left: 0%;
+}
+
+.campo label {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    color: #8B1F1A;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.10em;
+    border: 1px solid #8B1F1A;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFFBF3;
+}
+
+.botao {
+    text-align: center;
+    align-items: center;
+    background-color: #8B1F1A;
+    width: 150px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    box-shadow: 4px 5px 4px #8B1F1A(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 15px;
+    font-size: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #FFFBF3;
+    /* font-size: 1.2em;
+    border: 0;
+    color: #FFFBF3;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    top: 75%;
+    left: 50%;*/
+    margin-right: -50%;
+}
+
+.botao:hover {
+    transform:scale(1.1);
+    transition: transform 100ms linear;
+    /* background: #FFFBF3;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none; */
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select {
+    cursor: pointer;
+}
+
+.rodape {
+    padding: 5px;
+    border-top: 0.5px solid #8B1F1A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.direitos {
+    font-family:'Sarala', sans-serif;
+    color:#8B1F1A;
+    text-align: center;
+    align-items: center;
+}
+

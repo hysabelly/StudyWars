@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+  * {
+    margin: 15;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+    
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #FFFBF3 100%, #FFFBF3 100%);
+  }
+    
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .cabecalho-imagem {
+    height: 130px;
+  }
+
+  #titulo {
+    margin: auto;
+    font-family:'Sarala', sans-serif;
+    color: #8B1F1A ;
+  }
+
+  .separador {
+    border-top: 0.5px solid #8B1F1A;
+  }
+  
+  .conteudo {
+    padding:0px;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .container {
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
+    padding: 35px;
+    background-color: #ffffff;
+  }
+
+  .container  h2 {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  div {
+    margin-bottom: 2em;
+  }
+
+  li {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1em;
+  }
+
+  div p {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  a {
+    color: #8B1F1A;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+  }
+
+  .direitos {
+    font-family:'Sarala', sans-serif;
+    color:#8B1F1A;
+    text-align: center;
+    align-items: center;
+  }
