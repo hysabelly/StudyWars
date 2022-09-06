@@ -23,16 +23,23 @@
   }
 
   #titulo {
-    margin: auto;
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
+
+    margin-left: 30%;
+    position: absolute;
   }
 
-  /* #subtitulo {
-    margin: auto;
+  #subtitulo {
+    
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
-  } */
+
+    margin: 30px;
+    margin-top: 6%;
+    margin-left: 40%;
+    position: absolute;
+  }
 
   .separador {
     border-top: 0.5px solid #8B1F1A;
@@ -108,6 +115,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
+    margin-left: 79%;
+    position: absolute
   }
 
 .conteudo-principal-escrito-botao {
