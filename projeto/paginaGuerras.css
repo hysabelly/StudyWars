@@ -67,6 +67,21 @@
     text-decoration: underline;
   }
 
+  .indice {
+    width: 250px;
+    font-size: 18px;
+    border: solid 2px #5a110e;
+    background-color: #8B1F1A;
+    padding: 6px;
+    margin: 12px;
+    float: right;
+    display: block;
+  }
+
+  .indice a {
+    color: rgb(255, 255, 255);
+  }
+
   div {
     margin-bottom: 2em;
   }
@@ -84,11 +99,11 @@
     text-align: justify;
   }
 
-  a {
+  h4 a {
     color: #8B1F1A;
   }
 
-  a:hover {
+  h4 a:hover {
     text-decoration: underline;
     font-size: 22px;
   }
