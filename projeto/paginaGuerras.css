@@ -25,7 +25,6 @@
   #titulo {
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
-
     margin-left: 30%;
     position: absolute;
   }
@@ -34,7 +33,7 @@
     
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
-
+    padding-top: 30px;
     margin: 30px;
     margin-top: 6%;
     margin-left: 40%;
