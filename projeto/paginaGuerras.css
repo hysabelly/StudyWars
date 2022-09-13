@@ -25,19 +25,32 @@
   #titulo {
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
-    margin-left: 30%;
-    position: absolute;
+    margin: auto;
+    margin-right: 0px;
+    /*margin-left: 25%;
+    position: absolute;*/
+
+    /*margin-left: 20%;
+    /*margin-left: 30%;
+    position: absolute;*/
   }
 
   #subtitulo {
     
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;
-    padding-top: 30px;
+    margin: auto;
+    margin-left: 35px;
+    /*margin: 0px;
+    position: absolute;
+    padding-top: 5%;
+    margin-left: 25%;*/
+  
+    /*padding-top: 30px;
     margin: 30px;
     margin-top: 6%;
     margin-left: 40%;
-    position: absolute;
+    position: absolute;*/
   }
 
   .separador {
@@ -131,8 +144,8 @@
     align-items: center;
 
 
-    margin-left: 79%;
-    position: absolute
+    /*margin-left: 75%;
+    position: absolute*/
   }
 
 .conteudo-principal-escrito-botao {
