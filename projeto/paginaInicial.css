@@ -156,3 +156,53 @@ body {
   color: #8B1F1A;
   font-size: 15px
 }
+
+.tema button{
+  align-self:flex-end;
+  font-weight: 400;
+  font-size: 15px;
+  padding:8px 16px;
+  background: #8B1F1A;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  position: absolute;
+  right: 120px;
+  top: 8%;
+  color:#ffffff;
+}
+
+.dark{
+  background: linear-gradient(236.85deg, #131212 27.26%, #000000 96.03%);
+  }
+.dark.conteudo-principal-escrito-titulo
+{
+  color: #FFFFFF;
+}
+.dark.conteudo-principal-escrito-botao{
+  box-shadow: 4px 5px 4px #272adb(0,0,0.25);
+  color: #000000
+}
+  
+  
+  .dark .tema button {
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+  }
+
+  .dark.conteudo-principal-escrito-botao{
+    background-color: #FFFFFF;
+    width: 150px;
+    height:40px;
+    border:none;
+    align-items:center;
+    box-shadow: 4px 5px 4px #FFFFFF(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 12px;
+    font-size: 12px;
+    color: #000000;
+  }
