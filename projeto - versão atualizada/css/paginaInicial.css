@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 15;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #FFFBF3 100%, #FFFBF3 100%);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+#logo{
+  transform:scale(1.1);
+  transition: transform 100ms linear;
+}
+
+.cabecalho-imagem {
+  height: 130px;
+}
+
+.rodape-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.rodape-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #8B1F1A;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  padding:0px;
+  align-items: center;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 10px;
+  font-size: 40px;
+  align-items: center;
+  color: #8B1F1A;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #8B1F1A;
+}
+
+.conteudo-principal-escrito-botao {
+  /* background-color: #8B1F1A;
+  width: 150px;
+  height: 40px;
+  border: none;
+  align-items: center;
+  box-shadow: 4px 5px 4px #8B1F1A(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 15px;
+  font-size: 15px;
+  color: #FFFBF3; */
+
+  width: 155px;
+  height: 40px;
+
+  color: #fff;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 3px;
+  background: #8B1F1A;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family:'Sarala', sans-serif;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  /* background-color: #FFFBF3(236, 214, 196, 0.53);
+  transform:scale(1.1);
+  transition: transform 100ms linear;
+  cursor: pointer; */
+
+  background: #9e6060;
+  background-color: #FFFBF3(236, 214, 196, 0.53);
+  transform:scale(1.1);
+  transition: transform 100ms linear;
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #8B1F1A;
+  padding-top: 50px;
+  font-family:  'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #8B1F1A;
+  margin-bottom: 30px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #8B1F1A;
+}
+
+.rodape {
+    padding: 35px;
+    border-top: 0.5px solid #8B1F1A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.rodape-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #8B1F1A;
+  font-size: 15px
+}
+
+.tema button{
+  align-self:flex-end;
+  font-weight: 400;
+  font-size: 15px;
+  padding:8px 16px;
+  background: #8B1F1A;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  position: absolute;
+  right: 120px;
+  top: 8%;
+  color:#ffffff;
+}
+
+.dark{
+  background: linear-gradient(236.85deg, #131212 27.26%, #000000 96.03%);
+  }
+.dark.conteudo-principal-escrito-titulo
+{
+  color: #FFFFFF;
+}
+.dark.conteudo-principal-escrito-botao{
+  box-shadow: 4px 5px 4px #272adb(0,0,0.25);
+  color: #000000
+}
+  
+  
+  .dark .tema button {
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+  }
+
+  .dark.conteudo-principal-escrito-botao{
+    background-color: #FFFFFF;
+    width: 150px;
+    height:40px;
+    border:none;
+    align-items:center;
+    box-shadow: 4px 5px 4px #FFFFFF(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 12px;
+    font-size: 12px;
+    color: #000000;
+  }
