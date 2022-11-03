@@ -58,80 +58,10 @@
     background-color: #ffffff;
   }
 
-  .container  h2 {
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
-  }
 
-  .indice {
-    width: 250px;
-    font-size: 18px;
-    border: solid 2px #5a110e;
-    background-color: #8B1F1A;
-    padding: 6px;
-    margin: 12px;
-    float: right;
-    display: block;
-  }
-
-  .indice a {
-    color: rgb(255, 255, 255);
-  }
-
-  div {
-    margin-bottom: 2em;
-  }
-
-  li {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 1em;
-    color: #8B1F1A;
-  }
-
-  div p {
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: justify;
-  }
-
-  h4 a {
-    color: #8B1F1A;
-  }
-
-  h4 a:hover {
-    text-decoration: underline;
-    font-size: 22px;
-  }
-
-  .direitos {
-    font-family:'Sarala', sans-serif;
-    color:#8B1F1A;
-    text-align: center;
-    align-items: center;
-  }
 
 
   
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .conteudo-principal-escrito {
-    height: 10px;
-    width: 190px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-    /*margin-left: 75%;
-    position: absolute*/
-  }
 
 .conteudo-principal-escrito-botao {
     background-color: #8B1F1A;
@@ -221,11 +151,12 @@ h1 {
 .questoes {
     padding: 1.5rem;
     border: 1px solid #ececec;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-bottom: 2rem;
     width: 85%;
-    border: 1px solid #8B1F1A;
     
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
     
 }
 
@@ -275,3 +206,4 @@ h1 {
     font-size: 18px;
     color: #FFFBF3;
 }
+
