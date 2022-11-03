@@ -1,5 +1,3 @@
-
-
 let titulo = document.querySelector('h1')
 let instrucoes = document.querySelector('#instrucoes')
 let aviso = document.querySelector('#aviso')
@@ -32,47 +30,47 @@ const q0 = {
 
 const q1 = {
   numQuestao   : 1,
-  pergunta     : "A Guerra dos Trinta Anos (1618-1648) foi uma das guerras mais sangrentas da história europeia, e tudo começou com um conflito interno do Sacro Império Germânico entre católicos e protestantes. Sobre esse conflito, assinale a alternativa correta.",
-  alternativaA : "A guerra só aconteceu por causa da intervenção da Inglaterra, que apoiou o Sacro Império Germânico contra os protestantes.",
-  alternativaB : "Rodolfo II, rei do Sacro Império Germânico, era católico e começou a impor sua fé sobre seus súditos e a perseguir os protestantes, que se uniram para combater as ordens reais.",
-  alternativaC : "Em nenhuma das fases que compõem a Guerra dos Trinta Anos, houve algum elemento religioso como motivador dos combates.",
-  correta      : "Em nenhuma das fases que compõem a Guerra dos Trinta Anos, houve algum elemento religioso como motivador dos combates.",
+  pergunta     : "Muitas políticas implementadas durante a Era Napoleônica destruíram de vez as bases de sustentação do antigo regime absolutista. Entre essas políticas, estava:",
+  alternativaA : "O Código Civil Napoleônico",
+  alternativaB : "A Lei da Guilhotina",
+  alternativaC : "A Magna Carta",
+  correta      : "O Código Civil Napoleônico",
 }
 
 const q2 = {
   numQuestao   : 2,
-  pergunta     : "Logo após a derrota para os franceses, o rei Fernando III assinou a Paz de Vestfália, que trouxe as seguintes consequências para a Europa:",
-  alternativaA : "a França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
-  alternativaB : "o Sacro Império Germânico manteve todo o seu território, pois temia-se que uma ação enérgica desencadearia uma nova guerra na Europa.",
-  alternativaC : "as questões religiosas passaram a pautar ainda mais os interesses do Estado e suas relações internacionais.",
-  correta      : "a França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
+  pergunta     : "Após participar da conspiração que deu início à sua ascensão ao poder em 1799, Napoleão passou a dividir, provisoriamente, o poder central da França com mais duas pessoas até o ano de 1804. Esse período ficou conhecido como Consulado. Os outros dois cônsules que governaram junto a Napoleão foram:",
+  alternativaA : "Maximilien Robespierre e Antoine de Saint-Just",
+  alternativaB : "o abade Sieyès e Pierre-Roger Ducos",
+  alternativaC : "Luís XVI e Guillaume Lellement",
+  correta      : "o abade Sieyès e Pierre-Roger Ducos",
 }
 
 const q3 = {
   numQuestao   : 3,
-  pergunta     : "Assinale a alternativa correta que aponta uma característica do período francês na Guerra dos Trinta Anos:",
-  alternativaA : "Os Habsburgo derrotaram a França e a sua dinastia ocupou o trono francês.",
-  alternativaB : "Os franceses, com outros reinos protestantes, derrotaram os Habsburgos e fortaleceram o poder terreno.",
-  alternativaC : "Na Guerra dos Trinta Anos, a França optou pela neutralidade e não teve nenhuma participação.",
-  correta      : "Os franceses, com outros reinos protestantes, derrotaram os Habsburgos e fortaleceram o poder terreno.",
+  pergunta     : "Em 1804, Napoleão Bonaparte instituiu o Código Civil Napoleônico, que garantia, por lei, os valores da burguesia. Entre esses valores estavam:",
+  alternativaA : "as liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão;",
+  alternativaB : "a intervenção do Estado na economia, a liberdade de crença religiosa e a proteção do direito de propriedade.",
+  alternativaC : "as liberdades individuais, a garantia da autoridade da Igreja sobre as diretrizes do Estado e a manutenção dos privilégios aristocráticos.",
+  correta      : "as liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão;",
 }
 
 const q4 = {
   numQuestao   : 4,
-  pergunta     : "As consequências da Guerra dos Trinta Anos foram:",
-  alternativaA : "a independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
-  alternativaB : "o fortalecimento dos Habsburgo e a interferência do Vaticano nas disputas pelos reinos europeus.",
-  alternativaC : "o direito internacional pautando os acordos externos e a vitória dos Habsburgo sobre os franceses.",
-  correta      : "a independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
+  pergunta     : "Qual foi o principal motivo que obrigou Napoleão Bonaparte a empreender uma guerra contra o Império Russo em 1812?",
+  alternativaA : "O fato de o Império Russo ter descumprido o Bloqueio Continental.",
+  alternativaB : "A tentativa do Império Russo de se apropriar das províncias italianas do Império Francês.",
+  alternativaC : "A formação da aliança comercial entre o Império Russo e o Império Português.",
+  correta      : "O fato de o Império Russo ter descumprido o Bloqueio Continental.",
 }
 
 const q5 = {
   numQuestao   : 5,
-  pergunta     : "Há seiscentos anos nascia Santa Joana D’Arc em Domrémy (França). Aos 19 anos, tornou-se uma heroína nacional e mártir da religião. A vida de Joana D’Arc está associada à:",
-  alternativaA : "Guerra dos Cem Anos, que indica os conflitos armados entre a França e Sacro Império Romano-Germânico resultantes das rivalidades entre católicos e protestantes.",
-  alternativaB : "Guerra dos Trinta Anos, ocorrida entre a França e a Espanha durante a dinastia dos Habsburgos. Neste conflito, Joana D’Arc foi queimada na fogueira pela Inquisição espanhola.",
-  alternativaC : "Guerra dos Cem Anos, que indica uma série de conflitos armados entre Inglaterra e França entre os séculos XIV e XV.",
-  correta      : "Guerra dos Cem Anos, que indica uma série de conflitos armados entre Inglaterra e França entre os séculos XIV e XV.",
+  pergunta     : "A expansão napoleônica no século XIX influenciou decisivamente vários acontecimentos históricos no período. Entre esses acontecimentos, podemos destacar:",
+  alternativaA : "A Independência do Brasil. Com a ocupação de Portugal pelas tropas napoleônicas, houve um enfraquecimento da monarquia portuguesa que culminou com as lutas pela independência e o rompimento de D. Pedro I com Portugal.",
+  alternativaB : "A Independência das colônias espanholas. Em 1808, a Espanha foi ocupada pelas tropas napoleônicas ao mesmo tempo em que se difundiam os ideais liberais da Revolução Francesa que inspirou as lutas pela independência.",
+  alternativaC : "O Congresso de Viena. A França de Napoleão assinou um pacto com a Áustria, Inglaterra e Rússia cujo objetivo maior era estabelecer uma trégua e reorganizar todo o mapa europeu.",
+  correta      : "A Independência das colônias espanholas. Em 1808, a Espanha foi ocupada pelas tropas napoleônicas ao mesmo tempo em que se difundiam os ideais liberais da Revolução Francesa que inspirou as lutas pela independência.",
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
@@ -186,4 +184,3 @@ function fimDoJogo() {
   articleQuestoes.style.display = 'none'
 
 }
-
