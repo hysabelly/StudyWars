@@ -41,27 +41,10 @@
   .separador {
     border-top: 0.5px solid #8B1F1A;
   }
-  
-  .conteudo {
-    padding:0px;
-    align-items: center;
-    font-family: 'Sarala', sans-serif;
-    text-align: justify;
-    font-size: 20px;
-  }
-
-  .container {
-    margin: 60px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #cfcfcf;
-    padding: 35px;
-    background-color: #ffffff;
-  }
-
-
-
 
   
+  
+ 
 
 .conteudo-principal-escrito-botao {
     background-color: #8B1F1A;
@@ -83,15 +66,14 @@
     transition: transform 100ms linear;
     cursor: pointer;
   }
+
+  .direitos {
+    font-family:'Sarala', sans-serif;
+    color:#8B1F1A;
+    text-align: center;
+    align-items: center;
+}
   
-  .container  h4 {
-    text-align: right;
-  }
-
-
-
-
-
 
 section {
     width: 100%;
