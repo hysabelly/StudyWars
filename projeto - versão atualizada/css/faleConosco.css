@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-
 * {
     margin: 15;
     padding: 0;
@@ -55,10 +53,6 @@
     margin-left: 11%;
 } 
 
-fieldset {
-    border: 0;
-}
-
 body {
     background-color: #FFFBF3;
     font-family: sans-serif;
@@ -66,86 +60,81 @@ body {
     justify-content: center;
 }
 
-input, select, textarea, button {
+#titulo {
+    margin: auto;
     font-family:'Sarala', sans-serif;
-    font-size: 1em;
-    color: #8B1F1A;
-    border-radius: 5px;
+    color: #8B1F1A ;
 }
 
-.grupo:before, .grupo:after {
-    display: table;
-}
-
-.grupo:after {
-    clear: both;
-}
-
-.campo {
-    margin-bottom: 1em;
-    margin-left: 0%;
-}
-
-.campo label {
-    margin-top: 1em;
-    margin-bottom: 0.2em;
-    color: #8B1F1A;
-    display: block;
-}
-
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-    padding: 0.10em;
-    border: 1px solid #8B1F1A;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-}
-
-.campo select option {
-    padding-right: 1em;
-}
-
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #FFFBF3;
-}
-
-.botao {
+.fale-conosco h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
     text-align: center;
+    line-height: 1.2;
+}
+
+form {
+    display: flex;
     align-items: center;
-    background-color: #8B1F1A;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'Sarala', sans-serif;
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 50%;
+}
+
+label {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-size: larger;
+}
+
+input, textarea {
+    background-color: #FFFBF3;
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid  #a10808;
+    border-radius: 4px;
+}
+
+ textarea {
+    min-height: 10rem;
+    resize: vertical;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    outline: none;
+    border-color: #751611;
+    box-shadow: 0 0 0 1px #8f1913;
+}
+
+input:valid, textarea:valid {
+    border-color: rgb(8, 102, 8);
+    box-shadow: 0 0 0 1px #26a100;
+}
+
+button {
+    display: block;
     width: 150px;
-    height: 40px;
+    padding: 0.9rem;
+    background: #8B1F1A;
+    color: #FFFBF3;
+    font: inherit;
+    text-transform: uppercase;
     border: none;
-    align-items: center;
-    box-shadow: 4px 5px 4px #8B1F1A(0, 0, 0, 0.25);
-    border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 15px;
-    font-size: 15px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #FFFBF3;
-    /* font-size: 1.2em;
-    border: 0;
-    color: #FFFBF3;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    top: 75%;
-    left: 50%;*/
-    margin-right: -50%;
-}
-
-.botao:hover {
-    transform:scale(1.1);
-    transition: transform 100ms linear;
-    /* background: #FFFBF3;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none; */
-}
-
-/* Elementos de classe botão e de tag <select> */
-.botao, select {
+    border-radius: 8px;
     cursor: pointer;
-}
+    transition: 0.2s;
+} 
+
+button:hover, button:focus {
+    outline: none;
+    background: #8B1F1A;
+} 
 
 .rodape {
     padding: 5px;
@@ -163,55 +152,3 @@ input, select, textarea, button {
     align-items: center;
 }
 
-.fale-conosco .caixa{
-    font-family:'Sarala', sans-serif;
-    height: 50px;
-    width: 100%;
-    margin: 12px 0;
-}
-
-.fale-conosco .caixa input,
-.fale-conosco .caixa textarea{
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    background: #F0F1F8;
-    border-radius: 3px;
-    padding: 0 15px;
-    resize: none;
-}
-
-.fale-conosco .msg{
-    min-height: 110px;
-}
-
-.fale-conosco .caixa textarea{
-    padding-top: 6px;
-}
-
-.fale-conosco .button{
-    display: inline-block;
-    margin-top: 12px;
-}
-
-.fale-conosco .button input[type="button"]{
-    color: #fff;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    padding: 4px 12px;
-    border-radius: 3px;
-    background: #8B1F1A;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family:'Sarala', sans-serif;
-}
-
-.button input[type="button"]:hover{
-    background: #9e6060;
-    background-color: #FFFBF3(236, 214, 196, 0.53);
-    transform:scale(1.1);
-    transition: transform 100ms linear;
-}

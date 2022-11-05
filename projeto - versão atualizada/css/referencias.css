@@ -92,7 +92,7 @@
   }
 
   .btn {
-   
+    cursor: pointer;
     font-family:'Sarala', sans-serif;
     color: #8B1F1A ;    font-size: 22px;
     padding-left: 20px;    font-size: 20px;
