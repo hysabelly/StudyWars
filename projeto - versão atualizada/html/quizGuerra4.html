@@ -5,8 +5,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Study Wars">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <title>Quiz - Guerra do Paraguai</title>
+  <link rel="shortcut icon" type="image/x-icon" href="..//favicon.ico">
+  <title> Quiz - Guerra do Paraguai</title>
   <link rel="stylesheet" type="text/css" href="../css/quizGuerras.css">
 </head>
+</html>
+
+<body>
+  <header class="cabecalho">
+      <a href="../html/paginaInicial.html"><img class="cabecalho-imagem" src="../img/logo.png" alt="Logo" ></a> 
+      <a class="cabecalho-menu-item" href="../html/index.html"> </a>
+      <h1 id="titulo">Quiz - Guerra do Paraguai</h1>
+      <h2 id="subtitulo">1864 - 1870</h2>
+      <div class="conteudo-principal-escrito">
+        <a href="../html/quizGuerra4.html"> <button class="conteudo-principal-escrito-botao">Reiniciar</button></a>       
+      </div>
+    </header>
+    <hr class="separador">
+
+<main class="tela-principal">
+
+    <section class='conteudos'>
+
+        <h1>Quiz</h1>
+
+        <article class='centro' id='instrucoes'>
+            Leia a questão e selecione a resposta correta
+        </article>
+
+        <article class='questoes'>
+            
+            <header class='questao'>
+                <span id='numQuestao'></span>
+                <h2 id='pergunta'></h2>
+            </header>
+
+            <div class='corpo'>
+                <ol type='A' id='alternativas'>
+                    <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    
+                </ol>
+            </div>
+        </article>
+        
+        <article id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></article>
+
+        <div class="conteudo-principal-escrito">
+          <a href="../html/gabaritoGuerra4.html"> <br> <button class="conteudo-principal-escrito-botao">Gabarito</button></a>       
+        </div>
+
+        <div class="conteudo-principal-escrito">
+          <a href="../html/paginaGuerra4.html"> <br> <button class="btn_voltar">Conteúdo</button></a>       
+        </div>
+        
+    </section>
+
+</main>
+
+<hr class="separador">
+  <footer>
+      <h4 class="direitos"> &copy; Copyright StudyWars - 2022</h4>
+  </footer>
+
+<!-- JS externo -->
+<script src="../js/quizGuerra4.js"></script>
+
+</body>
 </html>
