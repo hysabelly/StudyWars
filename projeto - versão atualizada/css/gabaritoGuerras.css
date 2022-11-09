@@ -77,9 +77,13 @@ h1 {
     font-size: 100%;
 }
 
-.questoes ol li:hover {
+/*.questoes ol li:hover {
     background: #15ff003a;
     cursor: pointer;
+}*/
+
+.respostacerta {
+    background: #15ff003a;
 }
 
 .questao {
