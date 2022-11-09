@@ -24,11 +24,29 @@
       <div class="fale-conosco">
         <h1>Formulário de contato</h1>
 
+        <form  class="form" id="form" action="https://formsubmit.co/equipestudywars@gmail.com" method="post">
+
+          <label for="name"><strong>Nome:</strong></label>
+          <input type="text" name="name" id="name" placeholder="Digite o seu nome completo" required minlength="5" maxlength="50"/>
+
+          <label for="email"><strong>Email:</strong></label>
+          <input type="email" name="email" id="email" placeholder="Digite o seu melhor e-mail" required maxlength="50"/>
+
+          <label for="message"><strong>Mensagem:</strong></label>
+          <textarea name="message" id="message" placeholder="Digite a mensagem que deseja enviar" required minlength="10" maxlength="300"></textarea>
+
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/thanks.html">
+            
+          <button type="submit"> Enviar </button>
+  
+        </form>
+
+       <!--
         <form  class="form" id="form" action="https://api.staticforms.xyz/submit" method="post">
 
           <input type="hidden" name="accessKey" value="6eb01300-1fcc-4e63-9306-5a46940f1d58"> 
           <input type="hidden" name="redirectTo" value="https://www.canva.com/design/DAFRG-Lh0BY/view">
-  
+
           <label for="name"><strong>Nome:</strong></label>
           <input type="text" name="name" id="name" placeholder="Digite o seu nome completo" required minlength="5" maxlength="50"/>
 
@@ -39,8 +57,9 @@
           <textarea name="message" id="message" placeholder="Digite a mensagem que deseja enviar" required minlength="10" maxlength="300"></textarea>
             
           <button type="submit"> Enviar </button>
-    
+  
         </form>
+        -->
       </div>
     </section>
   </main>

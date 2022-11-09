@@ -34,7 +34,18 @@
 .container  h2 {
     padding: 10px;
     text-align: center;
-    text-decoration: underline;
+    color: #8B1F1A;
+}
+
+.container h3 {
+    text-align: center;
+    color: #0e0d0d;
+}
+
+h2::before {
+    content: "📧";
+    display: block;
+    margin-bottom: 15px;
 }
     
 #titulo {
@@ -151,4 +162,6 @@ button:hover, button:focus {
     text-align: center;
     align-items: center;
 }
+
+
 
