@@ -123,6 +123,23 @@ function desbloquearAlternativas() {
   c.classList.remove('bloqueado')
 }
 
+
+function correta(nQuestao, resposta) {
+
+  let numeroDaQuestao = nQuestao.value
+  console.log("Questão " + numeroDaQuestao)
+
+  let respostaEscolhida = resposta.textContent
+
+  let certa = questoes[numeroDaQuestao].correta
+  //console.log("RespC " + certa)
+
+  if(respostaEscolhida == certa) {
+    respostaEscolhida.style.backgroundColor = "#15ff003a";
+  }
+}
+
+
 function verificarSeAcertou(nQuestao, resposta) {
 
   let numeroDaQuestao = nQuestao.value

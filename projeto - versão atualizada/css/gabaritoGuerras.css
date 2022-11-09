@@ -1,1 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 15;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+    
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #FFFBF3 100%, #FFFBF3 100%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 130px;
+}
+
+#titulo {
+    font-family:'Sarala', sans-serif;
+    color: #8B1F1A ;
+    margin: auto;
+}
+
+.separador {
+    border-top: 0.5px solid #8B1F1A;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family:'Sarala', sans-serif;
+    color: black;
+    margin-right: 0px;
+}
+
+.centro {
+    text-align: center;
+    font-family:'Sarala', sans-serif;
+    color: black;
+    margin-right: 0px;
+}
+
+.questoes {
+    padding: 1.5rem;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 85%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
+}
+
+.questoes ol li {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family:'Sarala', sans-serif;
+    color: black;
+    font-weight: 50;
+    font-size: 100%;
+}
+
+.questoes ol li:hover {
+    background: #15ff003a;
+    cursor: pointer;
+}
+
+.questao {
+    align-items: center;
+    display: flex;
+}
+
+#numQuestao {
+    display: block;
+    background: #8B1F1A;
+    padding: 4px 10px 2px 10px;
+    border-radius: 50%;
+    color: white;
+    font-family:'Sarala', sans-serif;
+}
+
+#pergunta {
+    margin-left: 1rem;
+    font-family:'Sarala', sans-serif;
+    color:#000000;
+    text-align: center;
+    align-items: center;
+    font-size: 120%;
+}
+
+.alternativas {
+    color: black;
+}
+
+#aviso {
+    color:#000000;
+    font-family:'Sarala', sans-serif;
+    font-weight: 700;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #FFFBF3(236, 214, 196, 0.53);
+    transform:scale(1.1);
+    transition: transform 100ms linear;
+    cursor: pointer;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #8B1F1A;
+    width: 110px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    box-shadow: 4px 5px 4px #8B1F1A(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 18px;
+    font-size: 18px;
+    color: #FFFBF3;
+}
+
+.btn_voltar {
+    background-color: #000000;
+    width: 110px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    box-shadow: 4px 5px 4px #8B1F1A(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 18px;
+    font-size: 18px;
+    color: #FFFBF3;
+}
+
+.btn_voltar:hover {
+    background-color: #FFFBF3(236, 214, 196, 0.53);
+    transform:scale(1.1);
+    transition: transform 100ms linear;
+    cursor: pointer;
+}
+
+.direitos {
+    font-family:'Sarala', sans-serif;
+    color:#8B1F1A;
+    text-align: center;
+    align-items: center;
+}

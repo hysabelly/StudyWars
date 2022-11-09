@@ -6,14 +6,12 @@
     src: url(BerkshireSwash-Regular.ttf)
 }
 
-
-  
   .cabecalho-imagem {
     height: 130px;
     right: 1130px;
+
   }
-  
- 
+
   .direitos {
     font-family:'Sarala', sans-serif;
     color:#8B1F1A;
