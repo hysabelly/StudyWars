@@ -74,7 +74,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-  /* background-color: #8B1F1A;
+   background: #8B1F1A;
   width: 150px;
   height: 40px;
   border: none;
@@ -84,21 +84,9 @@ body {
   font-family: 'Sarala', sans-serif;
   font-weight: 15px;
   font-size: 15px;
-  color: #FFFBF3; */
+  color: #FFFBF3; 
 
-  width: 155px;
-  height: 40px;
 
-  color: #fff;
-  font-size: 17px;
-  outline: none;
-  border: none;
-  padding: 4px 12px;
-  border-radius: 3px;
-  background: #8B1F1A;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-family:'Sarala', sans-serif;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -183,6 +171,7 @@ body {
   box-shadow: 4px 5px 4px #272adb(0,0,0.25);
   color: #000000;
   background-color: #FFFFFF;
+
 }
   
   
@@ -204,7 +193,8 @@ body {
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 12px;
-    font-size: 12px;
+    font-weight: 15px;
+    font-size: 15px;
     color: #000000;
 
   }
