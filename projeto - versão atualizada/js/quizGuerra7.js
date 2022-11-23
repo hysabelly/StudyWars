@@ -39,11 +39,11 @@ const q1 = {
 
 const q2 = {
   numQuestao   : 2,
-  pergunta     : "Duas organizações militares foram fundadas pela União Soviética e os Estados Unidos com o objetivo de garantir alianças dentro da lógica bipolar que o mundo vivia durante a Guerra Fria.",
-  alternativaA : "Pacto de Varsóvia e OTAN",
-  alternativaB : "ONU e OTAN",
-  alternativaC : "Pacto de Varsóvia e ONU",
-  correta      : "Pacto de Varsóvia e OTAN",
+  pergunta     : "Duas organizações militares foram fundadas pela União Soviética e os Estados Unidos com o objetivo de garantir alianças dentro da lógica bipolar que o mundo vivia durante a Guerra Fria:",
+  alternativaA : "Pacto de Varsóvia e OTAN.",
+  alternativaB : "ONU e OTAN.",
+  alternativaC : "Pacto de Varsóvia e ONU.",
+  correta      : "Pacto de Varsóvia e OTAN.",
 }
 
 const q3 = {
@@ -66,7 +66,7 @@ const q4 = {
 
 const q5 = {
   numQuestao   : 5,
-  pergunta     : "O Muro de Berlim dividiu a cidade em duas partes durante 28 anos, separando famílias inteiras e, em última análise, um país. Para o mundo, ele se transformou num símbolo da Guerra Fria.  Escolha a alternativa que explica a razão do Muro de Berlim ser um símbolo da Guerra Fria.",
+  pergunta     : "O Muro de Berlim dividiu a cidade em duas partes durante 28 anos, separando famílias inteiras e, em última análise, um país. Para o mundo, ele se transformou num símbolo da Guerra Fria.  Escolha a alternativa que explica a razão do Muro de Berlim ser um símbolo da Guerra Fria:",
   alternativaA : "Como ocorreram milhares de fuzilamentos nas suas paredes por ambos os governos, o Muro acabou simbolizando a divisão mundial.",
   alternativaB : "Sem poder conter a fuga de pessoas entre as duas cidades, o governo de Berlim Ocidental, capitalista, decide construir uma barreira física na cidade berlinesa.",
   alternativaC : "A construção, realizada com o apoio dos soviéticos, separava não só a cidade, como duas maneiram bem distintas de pensar a política e a economia.",

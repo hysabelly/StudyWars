@@ -31,28 +31,28 @@ const q0 = {
 const q1 = {
   numQuestao   : 1,
   pergunta     : "Muitas políticas implementadas durante a Era Napoleônica destruíram de vez as bases de sustentação do antigo regime absolutista. Entre essas políticas, estava:",
-  alternativaA : "O Código Civil Napoleônico",
-  alternativaB : "A Lei da Guilhotina",
-  alternativaC : "A Magna Carta",
-  correta      : "O Código Civil Napoleônico",
+  alternativaA : "O Código Civil Napoleônico.",
+  alternativaB : "A Lei da Guilhotina.",
+  alternativaC : "A Magna Carta.",
+  correta      : "O Código Civil Napoleônico.",
 }
 
 const q2 = {
   numQuestao   : 2,
   pergunta     : "Após participar da conspiração que deu início à sua ascensão ao poder em 1799, Napoleão passou a dividir, provisoriamente, o poder central da França com mais duas pessoas até o ano de 1804. Esse período ficou conhecido como Consulado. Os outros dois cônsules que governaram junto a Napoleão foram:",
-  alternativaA : "Maximilien Robespierre e Antoine de Saint-Just",
-  alternativaB : "o abade Sieyès e Pierre-Roger Ducos",
-  alternativaC : "Luís XVI e Guillaume Lellement",
-  correta      : "o abade Sieyès e Pierre-Roger Ducos",
+  alternativaA : "Maximilien Robespierre e Antoine de Saint-Just.",
+  alternativaB : "O abade Sieyès e Pierre-Roger Ducos.",
+  alternativaC : "Luís XVI e Guillaume Lellement.",
+  correta      : "O abade Sieyès e Pierre-Roger Ducos.",
 }
 
 const q3 = {
   numQuestao   : 3,
   pergunta     : "Em 1804, Napoleão Bonaparte instituiu o Código Civil Napoleônico, que garantia, por lei, os valores da burguesia. Entre esses valores estavam:",
-  alternativaA : "as liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão;",
-  alternativaB : "a intervenção do Estado na economia, a liberdade de crença religiosa e a proteção do direito de propriedade.",
-  alternativaC : "as liberdades individuais, a garantia da autoridade da Igreja sobre as diretrizes do Estado e a manutenção dos privilégios aristocráticos.",
-  correta      : "as liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão;",
+  alternativaA : "As liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão.",
+  alternativaB : "A intervenção do Estado na economia, a liberdade de crença religiosa e a proteção do direito de propriedade.",
+  alternativaC : "As liberdades individuais, a garantia da autoridade da Igreja sobre as diretrizes do Estado e a manutenção dos privilégios aristocráticos.",
+  correta      : "As liberdades individuais, o Estado laico, a proteção do direito de propriedade e a abolição da servidão.",
 }
 
 const q4 = {

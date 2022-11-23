@@ -31,10 +31,10 @@ const q0 = {
 const q1 = {
   numQuestao   : 1,
   pergunta     : "Antes mesmo que a Segunda Guerra Mundial se iniciasse, japoneses e soviéticos estiveram em batalha durante os meses de maio e agosto de 1939, no que ficou conhecido como Batalha de Khalkhin Gol. Uma das consequências dessa batalha foi: ",
-  alternativaA : "ampliou os expurgos promovidos no Exército Vermelho por Stalin.",
-  alternativaB : "fortaleceu a corrente no governo japonês que defendia um ataque contra os EUA no sul do Pacífico.",
-  alternativaC : "incentivou o deslocamento das indústrias soviéticas para o oeste, na fronteira com a Polônia.",
-  correta      : "fortaleceu a corrente no governo japonês que defendia um ataque contra os EUA no sul do Pacífico.",
+  alternativaA : "Ampliou os expurgos promovidos no Exército Vermelho por Stalin.",
+  alternativaB : "Fortaleceu a corrente no governo japonês que defendia um ataque contra os EUA no sul do Pacífico.",
+  alternativaC : "Incentivou o deslocamento das indústrias soviéticas para o oeste, na fronteira com a Polônia.",
+  correta      : "Fortaleceu a corrente no governo japonês que defendia um ataque contra os EUA no sul do Pacífico.",
 }
 
 const q2 = {
@@ -49,27 +49,27 @@ const q2 = {
 const q3 = {
   numQuestao   : 3,
   pergunta     : "A Segunda Grande Guerra (1939-1945) adquiriu caráter mundial a partir de 7 de dezembro de 1941, quando:",
-  alternativaA : "os russos tomaram a iniciativa de anexar os Estados Bálticos.",
-  alternativaB : "os japoneses atacaram a base norte-americana de Pearl Harbor",
-  alternativaC : "os franceses, por determinação do marechal Pétain, ocuparam o Sudeste da Ásia;",
-  correta      : "os japoneses atacaram a base norte-americana de Pearl Harbor",
+  alternativaA : "Os russos tomaram a iniciativa de anexar os Estados Bálticos.",
+  alternativaB : "Os japoneses atacaram a base norte-americana de Pearl Harbor.",
+  alternativaC : "Os franceses, por determinação do marechal Pétain, ocuparam o Sudeste da Ásia.",
+  correta      : "Os japoneses atacaram a base norte-americana de Pearl Harbor.",
 }
 
 const q4 = {
   numQuestao   : 4,
   pergunta     : "O dia 9 de agosto de 1945 ficou marcado na história da Segunda Guerra Mundial como o dia em que os Estados Unidos lançaram sua segunda bomba atômica sobre o Japão, dessa vez contra a cidade de Nagasaki. Esse acontecimento foi determinante para a rendição japonesa, mas outro acontecimento também foi crucial para que o Japão se rendesse. Estamos falando:",
-  alternativaA : "da invasão da Manchúria.",
-  alternativaB : "o anúncio do presidente americano de que uma terceira bomba seria lançada.",
-  alternativaC : "o incêndio de Tóquio.",
-  correta      : "da invasão da Manchúria.",
+  alternativaA : "Da invasão da Manchúria.",
+  alternativaB : "O anúncio do presidente americano de que uma terceira bomba seria lançada.",
+  alternativaC : "O incêndio de Tóquio.",
+  correta      : "Da invasão da Manchúria.",
 }
 
 const q5 = {
   numQuestao   : 5,
   pergunta     : "Em relação à Segunda Guerra Mundial é correto afirmar que:",
   alternativaA : "Hitler empreendeu uma implacável perseguição aos judeus, que resultou na morte de seis milhões de pessoas.",
-  alternativaB : "os norte-americanos permaneceram neutros na guerra até 1941, quando bombardearam Hiroshima e Nagasaki.",
-  alternativaC : "a Crise de 1929 nada teve a ver com a Segunda Guerra Mundial.",
+  alternativaB : "Os norte-americanos permaneceram neutros na guerra até 1941, quando bombardearam Hiroshima e Nagasaki.",
+  alternativaC : "A Crise de 1929 nada teve a ver com a Segunda Guerra Mundial.",
   correta      : "Hitler empreendeu uma implacável perseguição aos judeus, que resultou na morte de seis milhões de pessoas.",
 }
 

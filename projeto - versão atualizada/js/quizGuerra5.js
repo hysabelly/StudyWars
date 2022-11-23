@@ -32,14 +32,14 @@ const q1 = {
   numQuestao   : 1,
   pergunta     : "Ao final da Primeira Guerra Mundial, instalou-se na Alemanha uma Assembleia Nacional que se reuniu em Weimar para preparar uma nova Constituição para o país. Nascia ali um novo Estado, chamado de:",
   alternativaA : "Sacro Império Romano-Germânico.",
-  alternativaB : "República de Weimar",
+  alternativaB : "República de Weimar.",
   alternativaC : "República Democrática da Alemanha.",
-  correta      : "República de Weimar",
+  correta      : "República de Weimar.",
 }
 
 const q2 = {
   numQuestao   : 2,
-  pergunta     : "Dos fenômenos abaixo citados, assinale aquele que é considerado como o causador da Primeira Guerra Mundial.",
+  pergunta     : "Dos fenômenos abaixo citados, assinale aquele que é considerado como o causador da Primeira Guerra Mundial:",
   alternativaA : "O assassinato da família imperial russa.",
   alternativaB : "O descumprimento do Tratado de Versalhes por parte da Alemanha.",
   alternativaC : "O assassinato do arquiduque Francisco Ferdinando, herdeiro do trono austríaco.",
@@ -49,19 +49,19 @@ const q2 = {
 const q3 = {
   numQuestao   : 3,
   pergunta     : "O Tratado de Versalhes foi um documento elaborado na Conferência de Paz de Paris e determinou as imposições dos países vencedores da Primeira Guerra Mundial contra os alemães, os derrotados. Quais dos países abaixo NÃO ENVIOU delegações para essa conferência?",
-  alternativaA : "Brasil",
-  alternativaB : "Nicarágua",
-  alternativaC : "Alemanha",
-  correta      : "Alemanha",
+  alternativaA : "Brasil.",
+  alternativaB : "Nicarágua.",
+  alternativaC : "Alemanha.",
+  correta      : "Alemanha.",
 }
 
 const q4 = {
   numQuestao   : 4,
   pergunta     : "Qual país fazia parte da Tríplice Aliança, mas se recusou a participar da guerra por esse grupo quando o conflito se iniciou em 1914?",
-  alternativaA : "Itália",
-  alternativaB : "Bulgária",
-  alternativaC : "Rússia",
-  correta      : "Itália",
+  alternativaA : "Itália.",
+  alternativaB : "Bulgária.",
+  alternativaC : "Rússia.",
+  correta      : "Itália.",
 }
 
 const q5 = {

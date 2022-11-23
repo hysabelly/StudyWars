@@ -40,10 +40,10 @@ const q1 = {
 const q2 = {
   numQuestao   : 2,
   pergunta     : "Uma das diferenças essenciais entre a Independência da América Espanhola e a Independência Brasileira está no:",
-  alternativaA : "modelo político adotado, haja vista que na América Hispânica predominou o modelo republicano, enquanto no Brasil adotou-se o modelo monárquico.",
-  alternativaB : "modelo de guerra adotado, já que no Brasil a guerrilha foi o modelo de combate adotado no processo de independência.",
-  alternativaC : "papel do exército, já que, no caso brasileiro, o exército precisou impedir que Portugal retomasse o Brasil como sua colônia. ",
-  correta      : "modelo político adotado, haja vista que na América Hispânica predominou o modelo republicano, enquanto no Brasil adotou-se o modelo monárquico.",
+  alternativaA : "Modelo político adotado, haja vista que na América Hispânica predominou o modelo republicano, enquanto no Brasil adotou-se o modelo monárquico.",
+  alternativaB : "Modelo de guerra adotado, já que no Brasil a guerrilha foi o modelo de combate adotado no processo de independência.",
+  alternativaC : "Papel do exército, já que, no caso brasileiro, o exército precisou impedir que Portugal retomasse o Brasil como sua colônia. ",
+  correta      : "Modelo político adotado, haja vista que na América Hispânica predominou o modelo republicano, enquanto no Brasil adotou-se o modelo monárquico.",
 }
 
 const q3 = {

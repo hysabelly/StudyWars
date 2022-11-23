@@ -40,19 +40,19 @@ const q1 = {
 const q2 = {
   numQuestao   : 2,
   pergunta     : "O forte e bem treinado exército paraguaio venceu as primeiras batalhas durante a Guerra do Paraguai, impondo baixas e conquistando territórios. Porém, a partir de certo momento, passou a sofrer sérias derrotas, que comprometeram suas defesas. A primeira derrota dos paraguaios que ficou célebre foi a Batalha:",
-  alternativaA : "de Riachuelo",
-  alternativaB : "de Uruguaiana.",
-  alternativaC : "de Tuiuti.",
-  correta      : "de Riachuelo",
+  alternativaA : "De Riachuelo.",
+  alternativaB : "De Uruguaiana.",
+  alternativaC : "De Tuiuti.",
+  correta      : "De Riachuelo.",
 }
 
 const q3 = {
   numQuestao   : 3,
   pergunta     : "“A Guerra chegara ao fim. As cidades, as vilas, as aldeias estavam despovoadas. Sobrevivera um quarto da população – cerca de duzentas mil pessoas – noventa por cento do sexo feminino. Dos vinte mil homens ainda com vida, setenta e cinco por cento eram velhos acima de sessenta anos ou garotos menores de dez anos. Os próprios aliados ficaram abismados com a enormidade da catástrofe, a maior sucedida num país americano” – Mânlio Gancogni e Ivan Boris.  O texto refere-se ao conflito externo em que se envolveu o Império Brasileiro, conhecido como a Guerra:",
-  alternativaA : "dos Farrapos.",
-  alternativaB : "de Canudos.",
-  alternativaC : "do Paraguai.",
-  correta      : "do Paraguai.",
+  alternativaA : "Dos Farrapos.",
+  alternativaB : "De Canudos.",
+  alternativaC : "Do Paraguai.",
+  correta      : "Do Paraguai.",
 }
 
 const q4 = {
@@ -67,10 +67,10 @@ const q4 = {
 const q5 = {
   numQuestao   : 5,
   pergunta     : "A Guerra do Paraguai, considerada o maior conflito armado da história da América do Sul, além de provocar a morte de inúmeros paraguaios, brasileiros, argentinos e uruguaios, foi a causa do desequilíbrio econômico e do aumento substancial das dívidas externas dos países envolvidos no conflito. Apesar disso, a guerra foi um 'bom negócio' para:",
-  alternativaA : "os ingleses, que emprestaram milhões de libras para os países da Tríplice Aliança, com juros altos, através de seus bancos.",
-  alternativaB : "os norte-americanos, que aumentaram a sua exportação de açúcar e trigo para o Uruguai e para o Brasil.",
-  alternativaC : "os argentinos, que conquistaram vastas porções do território paraguaio e anexaram áreas do Rio Grande do Sul.",
-  correta      : "os ingleses, que emprestaram milhões de libras para os países da Tríplice Aliança, com juros altos, através de seus bancos.",
+  alternativaA : "Os ingleses, que emprestaram milhões de libras para os países da Tríplice Aliança, com juros altos, através de seus bancos.",
+  alternativaB : "Os norte-americanos, que aumentaram a sua exportação de açúcar e trigo para o Uruguai e para o Brasil.",
+  alternativaC : "Os argentinos, que conquistaram vastas porções do território paraguaio e anexaram áreas do Rio Grande do Sul.",
+  correta      : "Os ingleses, que emprestaram milhões de libras para os países da Tríplice Aliança, com juros altos, através de seus bancos.",
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES

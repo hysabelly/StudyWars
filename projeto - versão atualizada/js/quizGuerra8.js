@@ -31,15 +31,15 @@ const q0 = {
 const q1 = {
   numQuestao   : 1,
   pergunta     : "Entre 1961 e 1973, um total de 57.939 norte-americanos morreram no conflito da Indochina, a mais longa e custosa guerra externa na história dos Estados Unidos. A Força Aérea dos EUA jogou sobre o Vietnã uma tonelagem de bombas, mais de três vezes superior ao que foi jogado na Alemanha durante a Segunda Guerra. Considerando-se a Guerra do Vietnã, é correto afirmar que:",
-  alternativaA : "o conflito foi motivado pela intenção do governo norte-americano de impedir a expansão do comunismo no Sudeste asiático.",
-  alternativaB : "os norte-americanos deram apoio decidido às ações de seu governo no Vietnã e manifestaram insatisfação quando suas tropas foram retiradas de lá.",
-  alternativaC : "os vietnamitas que enfrentavam o exército dos EUA lutavam em condições difíceis, pois não dispunham de apoio externo.",
-  correta      : "o conflito foi motivado pela intenção do governo norte-americano de impedir a expansão do comunismo no Sudeste asiático.",
+  alternativaA : "O conflito foi motivado pela intenção do governo norte-americano de impedir a expansão do comunismo no Sudeste asiático.",
+  alternativaB : "Os norte-americanos deram apoio decidido às ações de seu governo no Vietnã e manifestaram insatisfação quando suas tropas foram retiradas de lá.",
+  alternativaC : "Os vietnamitas que enfrentavam o exército dos EUA lutavam em condições difíceis, pois não dispunham de apoio externo.",
+  correta      : "O conflito foi motivado pela intenção do governo norte-americano de impedir a expansão do comunismo no Sudeste asiático.",
 }
 
 const q2 = {
   numQuestao   : 2,
-  pergunta     : "Marque a alternativa que indica um dos objetivos da Guerra do Vietnã.",
+  pergunta     : "Marque a alternativa que indica um dos objetivos da Guerra do Vietnã:",
   alternativaA : "A extinção das duas ideologias que comandaram a guerra.",
   alternativaB : "A separação do país.",
   alternativaC : "A unificação do país.",
@@ -49,10 +49,10 @@ const q2 = {
 const q3 = {
   numQuestao   : 3,
   pergunta     : "A Guerra do Vietnã ocorreu no período em que o mundo vivia uma bipolarização entre duas ideologias:",
-  alternativaA : "capitalismo X comunismo.",
-  alternativaB : "socialismo X islamismo.",
-  alternativaC : "capitalismo X anarquismo.",
-  correta      : "capitalismo X comunismo.",
+  alternativaA : "Capitalismo X Comunismo.",
+  alternativaB : "Socialismo X Islamismo.",
+  alternativaC : "Capitalismo X Anarquismo.",
+  correta      : "Capitalismo X Comunismo.",
 }
 
 const q4 = {
@@ -67,7 +67,7 @@ const q4 = {
 const q5 = {
   numQuestao   : 5,
   pergunta     : "Os Estados Unidos apoiavam o ________________ e a União Soviética apoiava o _______________.",
-  alternativaA : " Vietnã do Norte / Vietnã do Sul",
+  alternativaA : "Vietnã do Norte / Vietnã do Sul",
   alternativaB : "Vietnã do Sul / Vietnã Central",
   alternativaC : "Vietnã do Sul / Vietnã do Norte",
   correta      : "Vietnã do Sul / Vietnã do Norte",
