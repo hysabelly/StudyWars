@@ -131,32 +131,30 @@ h1 {
 
 /* article que acomoda a questao completa */
 .questoes {
-    padding: 1.5rem;
-    border: 1px solid #ececec;
-    border-radius: 15px;
-    margin-bottom: 2rem;
-    width: 85%;
-    
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px #cfcfcf;
+  padding: 1.5rem;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  width: 85%;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #cfcfcf;
     
 }
 
 .questoes ol li {
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 8px;
-    font-family:'Sarala', sans-serif;
-    color: black;
-    font-weight: 50;
-    font-size: 100%;
-
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family:'Sarala', sans-serif;
+  color: black;
+  font-weight: 50;
+  font-size: 100%;
 }
 
 .questoes ol li:hover {
-    background: #de706a3a;
-    cursor: pointer;
+  background: #de706a3a;
+  cursor: pointer;
 }
 
 .bloqueado {

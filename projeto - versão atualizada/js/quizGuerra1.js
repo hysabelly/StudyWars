@@ -41,10 +41,10 @@ const q1 = {
 const q2 = {
   numQuestao   : 2,
   pergunta     : "Logo após a derrota para os franceses, o rei Fernando III assinou a Paz de Vestfália, que trouxe as seguintes consequências para a Europa:",
-  alternativaA : "a França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
-  alternativaB : "o Sacro Império Germânico manteve todo o seu território, pois temia-se que uma ação enérgica desencadearia uma nova guerra na Europa.",
-  alternativaC : "as questões religiosas passaram a pautar ainda mais os interesses do Estado e suas relações internacionais.",
-  correta      : "a França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
+  alternativaA : "A França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
+  alternativaB : "O Sacro Império Germânico manteve todo o seu território, pois temia-se que uma ação enérgica desencadearia uma nova guerra na Europa.",
+  alternativaC : "As questões religiosas passaram a pautar ainda mais os interesses do Estado e suas relações internacionais.",
+  correta      : "A França anexou territórios pertencentes ao Sacro Império Germânico e à Espanha, tornando-se a nação mais poderosa da Europa.",
 }
 
 const q3 = {
@@ -59,10 +59,10 @@ const q3 = {
 const q4 = {
   numQuestao   : 4,
   pergunta     : "As consequências da Guerra dos Trinta Anos foram:",
-  alternativaA : "a independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
-  alternativaB : "o fortalecimento dos Habsburgo e a interferência do Vaticano nas disputas pelos reinos europeus.",
-  alternativaC : "o direito internacional pautando os acordos externos e a vitória dos Habsburgo sobre os franceses.",
-  correta      : "a independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
+  alternativaA : "A independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
+  alternativaB : "O fortalecimento dos Habsburgo e a interferência do Vaticano nas disputas pelos reinos europeus.",
+  alternativaC : "O direito internacional pautando os acordos externos e a vitória dos Habsburgo sobre os franceses.",
+  correta      : "A independência dos reinos que estavam sob domínio da dinastia dos Habsburgo e a não intervenção religiosa nas decisões políticas.",
 }
 
 const q5 = {

@@ -67,7 +67,7 @@ h1 {
 }
 
 .questoes ol li {
-    display: block;
+   
     margin: 1rem;
     padding: 1rem;
     border-radius: 8px;
@@ -76,11 +76,6 @@ h1 {
     font-weight: 50;
     font-size: 100%;
 }
-
-/*.questoes ol li:hover {
-    background: #15ff003a;
-    cursor: pointer;
-}*/
 
 .respostacerta {
     background: #15ff003a;
